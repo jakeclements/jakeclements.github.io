@@ -1,0 +1,19 @@
+{
+  "name": "personal-site-2016",
+  "version": "1.0.0",
+  "description": "Personal Site for Jake Clements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "clean": "rimraf assets"
+  },
+  "author": "Jake Clements <jake@jakeclements.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "typekit-cache": "^1.13.0"
+  }
+}
